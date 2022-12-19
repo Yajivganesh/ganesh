@@ -1,6 +1,6 @@
 .mask__{
     width: 100%;
-    opacity: 0.02;
+    opacity: 0.03;
     background-size: cover;
     position: absolute;
 }
@@ -109,12 +109,15 @@
         border-radius: 25px;
         justify-items: center;
         align-items: center;
-        align-content: space-between;
+        align-content: space-around;
         padding:0px 20px;
         /* margin-bottom: 20px; */
     }
     .about__content{
         padding: 0px;
+    }
+    .about__content{
+        grid-template-columns:1.2fr;
     }
     .about__image{
         padding: 40px 40px 0px 40px;
@@ -128,12 +131,19 @@
         padding: 5px;
     }
     .buttons{
-        font-size: 1.2rem;
         padding-bottom: 0px;
         margin-top: 0px;
     }
+    .download__btn, .contact__btn{
+        font-size: 0.9rem;
+        padding: 15px;
+    }
     .downlaod__btn{
         padding: 12px 20px;
+    }
+    .about__text__content{
+        grid-template-rows: 1fr 0.4fr;
+        padding: 0px;
     }
 
 }
