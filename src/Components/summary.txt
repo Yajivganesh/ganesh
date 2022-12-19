@@ -1,0 +1,56 @@
+ <div>
+       <div className="main__summary" id="Summary">
+      <div className="main__summary main__summary__content">
+        <div className="summary__background__image">
+          <img
+            src={Img_2}
+            alt=""
+            className="summary__background__image about__container"
+          />
+        </div>
+        <div className="summary__containter__sub">
+          <div className="summary__content">
+            <h1>Technical Summary</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              officiis sit debitis. Ad dignissimos blanditiis reprehenderit
+              laudantium voluptates, tempora facilis maxime, earum quasi, quis
+              autem aspernatur ratione architecto dolores quam. Unde qui, ipsa
+              tenetur perferendis corporis possimus repudiandae ab minima
+              labore. Ipsam deserunt sed eum quaerat exercitationem assumenda,
+              impedit iure.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              eveniet rerum ratione illo consequuntur odio quisquam, voluptates
+              eaque corrupti doloribus, deserunt, rem sapiente magni fugit.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              consectetur, quibusdam nam tempore omnis quae veritatis, molestias
+              amet a debitis unde consequatur, perferendis voluptate fugit
+              obcaecati?
+            </p>
+          </div>
+          <div className="form__content">
+            <div className="form">
+              <form>
+                <label for="name">Your Name</label>
+                <input type="text"></input>
+                <label for="email">Email</label>
+                <input type="email"></input>
+                <label for="subject">Subject</label>
+                <input type="text"></input>
+                <label for="name">Message</label>
+                <textarea
+                  rows="6"
+                  placeholder=" Type your Message here"
+                ></textarea>
+                <button className="btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>

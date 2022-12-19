@@ -1,0 +1,49 @@
+    <div className="about__main__container" id="About">
+      <div className="about_container">
+        <div className="mask__">
+          <img
+            src={Img2}
+            alt=""
+            className="about__container image__main imge"
+          />
+        </div>
+
+        <div className="about__container2">
+          <div className="my__photo">
+            <img src={Img8} alt="" className="about__image" />
+          </div>
+          <div className="about__cont">
+            <h2>About Me</h2>
+            <div className="about__para">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur qui quia voluptatibus minus! Blanditiis animi rem
+                fugiat. Ipsam, aut repellendus.
+              </p>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+                voluptates perferendis minima unde a ipsa omnis vero blanditiis,
+                corporis soluta eius? Recusandae minima laboriosam vel!
+              </p>
+              <br />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                corrupti, obcaecati minima perspiciatis aperiam vel. Aliquam
+                dignissimos alias, repellendus porro sed eius, molestias magnam
+                esse ipsa dicta beatae, perferendis numquam!
+              </p>
+            </div>
+            <div className="buttons">
+            
+              <Link to="" download className="btn downlaod__btn">
+                Download CV
+              </Link>
+              <Link to="Footer" spy={true} smooth={true} duration={500} className="btn btn_light">
+                contact
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
