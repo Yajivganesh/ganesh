@@ -6,6 +6,9 @@ import img_3 from "../Assets/img_3.jpg";
 // import HeroImg2 from "./HeroImg2";
 
 const HeroImg = () => {
+  const project = () =>{
+    alert("OOps..! I forgot that this is my first project. I will do more projects in the future. That's why I'm giving this button");
+  }
   return (
     <div className="main__container__total">
       <div className="hero">
@@ -23,8 +26,8 @@ const HeroImg = () => {
           </div>
           
           <div>
-            <Link
-              to="/Project"
+            <Link onClick={project}
+              to=""
               spy={true}
               smooth={true}
               duration={500}

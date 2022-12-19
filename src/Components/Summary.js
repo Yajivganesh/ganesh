@@ -3,6 +3,9 @@ import React from "react";
 import Img_2 from "../Assets/Img_2.jpg";
 
 const Summary = () => {
+  const submit= () =>{
+    alert("Form submitted");
+  }
   return (
     <div className="main__summary" id="Summary">
       <div className="summary__contents__main">
@@ -54,7 +57,7 @@ const Summary = () => {
                   rows="6"
                   placeholder=" Type your Message here"
                 ></textarea>
-                <button className="btn submit__btn">Submit</button>
+                <button className="btn submit__btn" onClick={submit}>Submit</button>
               </form>
             </div>
           </div>
