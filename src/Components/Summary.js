@@ -6,36 +6,39 @@ const Summary = () => {
   return (
     <div className="main__summary" id="Summary">
       <div className="summary__contents__main">
-          <img src={Img_2} alt="" className="background__summary__img" />
+        <img src={Img_2} alt="" className="background__summary__img" />
         <div className="summary__content">
           <div className="summary__text__content">
-            <h1>Summary</h1>
+            <h1>Technical Summary</h1>
+            <h3>BackEnd Technologies</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
-              alias tempore facere, ad rerum ullam? Eos ducimus modi corrupti
-              quo eum, earum molestias, quia est adipisci recusandae veniam,
-              expedita natus! Accusamus et tempore nam natus voluptatibus
-              aperiam aspernatur modi explicabo!
+              Good Knowledge on Java Development Environment Setup. Having good
+              interactions with Eclipse IDE. Good interpersonal skills, willing
+              to take challenges and more responsibilities. Good knowledge on
+              OOPs concepts like inheritance, Abstraction, Polymorphism. Having
+              great knowledge on loop concepts. Having Good knowledge on String
+              manipulation methods and collection framework. Also Having great
+              knowledge in MySQL database with advanced knowledge in MySQL
+              views, Joints, Constraints, indexes, stored procedures. Now i'm
+              learnig SpringBoot framework by self learning through online
+              videos and websites.
             </p>
+            <br />
+            <h3>FrontEnd Technologies</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
-              quis deleniti quas, doloribus minima animi est quaerat! Ad
-              voluptatum, laborum, dicta fugiat repellendus quia, modi soluta
-              asperiores possimus porro maxime.
+              Front End with ReactJS trained and certified by Besant
+              Technologies, Anna Nagar, Chennai. Having good knowledge in
+              Reactjs. Good knowledge in creating responsive websites with
+              advanced CSS concepts like Grid, flex and writing mediaqueries.
+              And also i have experience in working with Adobe Photoshop and
+              Adobe Illustrator.
             </p>
+            <br />
+            {/* <h3>Operating Systems</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-              eligendi fuga, tempora commodi vel laborum sint qui esse
-              voluptatibus quasi.
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed enim
-              aliquam quibusdam minus suscipit eum iure perspiciatis optio
-              repellat ducimus. Nam maxime necessitatibus atque similique unde,
-              laborum molestias sed eius. Quas aliquam ullam molestias magnam
-              nostrum aliquid optio unde saepe suscipit sunt porro, iste officia
-              dignissimos nemo qui, omnis reprehenderit.
-            </p>
+             I can work with windows based Operating Systems and also MacOs machines.
+             And I can able to work with the operating systems also. Because i have basic operating system knowledge also.
+            </p> */}
           </div>
           <div className="summary__form__content">
             <div className="cont">
@@ -54,7 +57,6 @@ const Summary = () => {
                 <button className="btn submit__btn">Submit</button>
               </form>
             </div>
-            <script src="Include a script tag to https://smtpjs.com/v3/smtp.js"></script>
           </div>
         </div>
       </div>

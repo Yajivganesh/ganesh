@@ -59,6 +59,26 @@
     margin-right: 5px;
     padding: 12px 22px;
 }
+.quote{
+    font-family:"Oswald", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: flex-end;
+    border: 1px solid #fff;
+    height: auto;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 20px 0px;
+}
+.quote h4{
+    font-weight: 400;
+}
+.quote p{
+    text-align: right;
+    margin-right: 50px;
+}
 
 
 
@@ -94,13 +114,26 @@
         padding-left: 100px;
         padding-right: 100px;
         border: 1px;
-        padding-top: 100px;
+        margin-top: 100px;
         border-radius: 100px;
     }
     .about__text__content{
         grid-template-rows: 1fr 0.5fr;
         width: 80%;
         padding: 10px;
+    }
+    .quote{
+        height: auto;
+        border: none;
+    }
+    .quote h4{
+        font-size: 19px;
+        font-weight: 400;
+        padding: 0px;
+    }
+    .quote p{
+        font-weight: 350;
+        font-size: 15px;
     }
     
 }
@@ -113,6 +146,14 @@
         align-content: space-around;
         padding:0px 20px;
         /* margin-bottom: 20px; */
+    }
+    .quote h4{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .quote p{
+        font-weight: 250;
+        font-size: 15px;
     }
     .about__content{
         padding: 0px;

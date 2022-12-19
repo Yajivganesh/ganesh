@@ -13,10 +13,15 @@ const HeroImg = () => {
           <img className="into_img" src={img_3} alt={img_3} />
         </div>
         <div className="content">
-          <p>Hi I'M A FREELANCER.</p>
+          <div className="dev">
+          <p>Hi I'M AN INNOVATIVE FRESHER.</p>
           <h1>
             JAVA DEVELOP<span>ER</span>
           </h1>
+          
+          {/* WITH AN EXTRADINARY MINDSET LIKE */}
+          </div>
+          
           <div>
             <Link
               to="/Project"
