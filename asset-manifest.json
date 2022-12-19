@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ganesh/static/css/main.84c1ed12.css",
-    "main.js": "/ganesh/static/js/main.ecb05e54.js",
+    "main.js": "/ganesh/static/js/main.5b3c4517.js",
     "static/media/Img8.jpg": "/ganesh/static/media/Img8.d6f626d2aefeabcee6e1.jpg",
     "static/media/Img_2.jpg": "/ganesh/static/media/Img_2.a040dfa833a76a9fbe46.jpg",
     "static/media/Img2.jpg": "/ganesh/static/media/Img2.1db339731e05e6b91000.jpg",
@@ -9,10 +9,10 @@
     "static/media/RESUME.pdf": "/ganesh/static/media/RESUME.7ab71f101427db282dc2.pdf",
     "index.html": "/ganesh/index.html",
     "main.84c1ed12.css.map": "/ganesh/static/css/main.84c1ed12.css.map",
-    "main.ecb05e54.js.map": "/ganesh/static/js/main.ecb05e54.js.map"
+    "main.5b3c4517.js.map": "/ganesh/static/js/main.5b3c4517.js.map"
   },
   "entrypoints": [
     "static/css/main.84c1ed12.css",
-    "static/js/main.ecb05e54.js"
+    "static/js/main.5b3c4517.js"
   ]
 }
