@@ -47,11 +47,11 @@ const Summary = () => {
             <div className="cont">
               <form>
                 <label for="name">Your Name</label>
-                <input type="text"></input>
+                <input type="text" required></input>
                 <label for="email">Email</label>
-                <input type="email"></input>
+                <input type="email" required></input>
                 <label for="subject">Phone</label>
-                <input type="text"></input>
+                <input type="text" required></input>
                 <label for="name">Message</label>
                 <textarea
                   rows="6"
