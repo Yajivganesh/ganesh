@@ -20,7 +20,7 @@ const About = () => {
           "Do th job that the machine can't. But not as an operator, as an
           Inventor"
         </h4>
-        <p>~ Vijay ganesh</p>
+        <p>~ My brain</p>
       </div>
           </div>
           <div className="about__text__content">
