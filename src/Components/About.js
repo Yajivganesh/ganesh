@@ -17,7 +17,7 @@ const About = () => {
             <img src={Img8} alt="" className="about__image" />
             <div  className="quote">
       <h4>
-          "Do th job that the machine can't. But not as an operator, as an
+          "Do the job that the machine can't. But not as an operator, as an
           Inventor"
         </h4>
         <p>~ My brain</p>
